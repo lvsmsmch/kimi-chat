@@ -53,6 +53,25 @@
             color: #e0e0e0;
         }
         
+        .download-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #4facfe, #00f2fe);
+            color: white;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+        }
+        
+        .download-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(79, 172, 254, 0.6);
+        }
+        
         .contact-info {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -120,6 +139,7 @@
             .logo { font-size: 2.5rem; }
             .subtitle { font-size: 1rem; }
             .container { padding: 20px; }
+            .download-button { font-size: 1rem; padding: 12px 30px; }
         }
     </style>
 </head>
@@ -136,9 +156,15 @@
         <h1 class="logo">Nyx Chat</h1>
         <p class="subtitle">AI-powered conversations</p>
         
+        <a href="https://play.google.com/store/apps/details?id=com.lvsmsmch.lchat&hl=en" 
+           target="_blank" 
+           class="download-button">
+            📱 Download on Google Play
+        </a>
+        
         <div class="contact-info">
             <p style="margin-bottom: 15px; font-weight: 500;">Developer Contact:</p>
-            <a href="mailto:your.email@gmail.com" class="email">iamajavagod@gmail.com</a>
+            <a href="mailto:iamajavagod@gmail.com" class="email">iamajavagod@gmail.com</a>
         </div>
         
         <div class="status">
